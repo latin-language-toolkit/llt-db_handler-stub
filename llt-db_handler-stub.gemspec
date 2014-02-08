@@ -1,11 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'llt/db_handler/stub/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "llt-db_handler-stub"
-  spec.version       = LLT::DbHandler::Stub::VERSION
+  spec.version       = '0.0.1'
   spec.authors       = ["LFDM"]
   spec.email         = ["1986gh@gmail.com"]
   spec.summary       = %q{A testing helper for llt}
@@ -22,4 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "simplecov", "~> 0.7"
+
+  spec.add_development_dependency "llt-db_handler"
 end
