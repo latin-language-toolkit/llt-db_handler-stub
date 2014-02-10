@@ -40,6 +40,7 @@ class LLT::DbHandler::Stub::StubEntries
       wsr(type: :persona,   nom: "Plato",     stem: "Platon",     itype: 3)
       wsr(type: :persona,   nom: "Solon",     stem: "Solon",      itype: 3)
       wsr(type: :persona,   nom: "Paulinus",  stem: "Paulin",     itype: 2)
+      wsr(type: :persona,   nom: "Iupiter",   stem: "Iov",        itype: 3)
 
       wsr(type: :adjective, nom: "communis",  stem: "commun",     itype: 3, number_of_endings: 1)
       wsr(type: :adjective, nom: "diligens",  stem: "diligent",   itype: 3, number_of_endings: 1)
