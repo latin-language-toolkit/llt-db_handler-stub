@@ -34,6 +34,7 @@ class LLT::DbHandler::Stub::StubEntries
       wsr(type: :noun,      nom: "filius",    stem: "fili",       itype: 2, sexus: :m)
       wsr(type: :noun,      nom: "servus",    stem: "serv",       itype: 2, sexus: :m)
       wsr(type: :noun,      nom: "dominus",   stem: "domin",      itype: 2, sexus: :m)
+      wsr(type: :noun,      nom: "ignis",     stem: "ign",        itype: 33, sexus: :m)
 
       wsr(type: :noun,      nom: "flumen",    stem: "flumin",     itype: 3, sexus: :n)
       wsr(type: :noun,      nom: "arma",      stem: "arm",        itype: 2, sexus: :n) # this might actually be wrong?
